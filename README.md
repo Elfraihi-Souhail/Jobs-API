@@ -98,8 +98,8 @@ npm run dev
 curl -X POST http://localhost:3000/api/v1/auth/register \
   -H "Content-Type: application/json" \
   -d '{
-    "name": "John Doe",
-    "email": "john@example.com",
+    "name": "ELFRAIHI Souhail",
+    "email": "souhail@example.com",
     "password": "securepassword"
   }'
 ```
@@ -110,7 +110,7 @@ curl -X POST http://localhost:3000/api/v1/auth/register \
 curl -X POST http://localhost:3000/api/v1/auth/login \
   -H "Content-Type: application/json" \
   -d '{
-    "email": "john@example.com",
+    "email": "souhail@example.com",
     "password": "securepassword"
   }'
 ```
